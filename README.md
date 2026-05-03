@@ -7,7 +7,7 @@ An autonomous, multi-agent application development platform that leverages **Lan
 ## 🚀 Deployment
 
 - **Backend:** Engineered with **FastAPI** and orchestrated using **LangGraph** for stateful multi-step reasoning.
-- **Hosting:** Containerized with **Docker** and deployed on **Hugging Face Spaces** (listening on port 7860).
+- **Hosting:** Containerized with **Docker** and deployed on **Hugging Face Spaces** .
 - **LLM Agnostic:** Supports a multi-model strategy including **Llama-3.3-70b**, **Qwen**, and **GPT** to provide varying levels of engineering depth.
 - **Frontend:** Integrated real-time preview environment allowing users to view and interact with generated code instantly via **FastAPI StaticFiles**.
 
@@ -51,6 +51,7 @@ CodeCraft AI utilizes a sequential and stateful architectural pattern managed by
 - **Environment:** Docker (Debian-slim / Python 3.10)
 
 ### Frontend & Preview
+- **Framework:** react.js
 - **Styling:** Tailwind CSS (via CDN for instant generation)
 - **Preview:** FastAPI StaticFiles mounting for real-time app interaction
 - **Components:** Google Fonts integration (Inter/Poppins), Hero Icons, and Responsive Grid Layouts
@@ -63,6 +64,3 @@ CodeCraft AI utilizes a sequential and stateful architectural pattern managed by
 - **Expertise:** This project bridges the gap between high-level Software Engineering and resource-constrained system design.
 - **Reliability:** Built with a "Hardware Reset" mindset—every build triggers a full directory wipe and state refresh to ensure zero contamination between projects.
 
----
-**Maintained by:** Umar  
-**Specialization:** AI & Software Systems Integration
