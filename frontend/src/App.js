@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { marked } from 'marked';
 
-const apiUrl ='http://localhost:8000';
+const apiUrl =process.env.REACT_APP_API_URL;
 
 function App() {
   // State for HTML generation
