@@ -64,3 +64,9 @@ CodeCraft AI utilizes a sequential and stateful architectural pattern managed by
 - **Expertise:** This project bridges the gap between high-level Software Engineering and resource-constrained system design.
 - **Reliability:** Built with a "Hardware Reset" mindset—every build triggers a full directory wipe and state refresh to ensure zero contamination between projects.
 
+---
+
+## Live Demo
+
+- https://code-craft-ai-sp1x.vercel.app/
+
